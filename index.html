@@ -98,29 +98,121 @@
                         Contributors include Adobe, BlackBerry, Google, IBM, Intel, Microsoft, Mozilla, etc
                     </aside>
                 </section>
-				
-				<section>
-					<section>
-						<h1>Installation</h1>
-					</section>
-					<section>
-						<h1>TODO IMAGE</h1>
-						<h4>From the Visual Studio installer</h4>
-                        <aside class="notes">
-                            This can be done from the 'Programs and Features' option in Windows
-                        </aside>
-					</section>
-					<section>
-						<h1>TODO IMAGE</h1>
-						<h4>From the Visual Studio project creation screen</h4>
-					</section>
-				</section>
-				
-				<section>
-					<h1>TODO IMAGE</h1>
-					<h4>Creating your first project</h4>
-				</section>
 
+                <section>
+                    <h1>Why Cordova?</h1>
+                    <p>
+                        <span class="fragment fade-in" data-fragment-index="0">
+                            <i class="fa fa-money fa-fw"></i> Completely Free
+                        </span>
+                    </p>
+                    <p>
+                        <span class="fragment fade-in" data-fragment-index="1">
+                            <i class="fa fa-graduation-cap fa-fw"></i> Easy to Learn
+                        </span>
+                    </p>
+                    <p>
+                        <span class="fragment fade-in" data-fragment-index="2">
+                            <i class="fa fa-mobile fa-fw"></i> Write Once, Deploy Everywhere
+                        </span>
+                    </p>
+                    <p>
+                        <span class="fragment fade-in" data-fragment-index="3">
+                            <i class="fa fa-cog fa-fw"></i> Access to Native Functionality
+                        </span>
+                    </p>
+                    <aside class="notes">
+                        
+                    </aside>
+                </section>
+
+                <section>
+                    <section>
+                        <h1>How Does It Work?</h1>
+                    </section>
+                    <section>
+                        <h2>Applications are executed in a web view control</h2>
+                    </section>
+                    <section>
+                        <h2>Javascript exposes native device functionality</h2>
+                        <span class="fragment fade-in" data-fragment-index="0">
+                            <pre><code data-trim contenteditable>
+cordova.exec(function(successCallback) {},
+             function(errorCallback) {},
+             "service",
+             "action",
+             ["firstArgument", "secondArgument", 42, false]);
+                            </code></pre>
+                        </span>
+                        <aside class="notes">
+                            Service and action are parsed by the native plugin class
+
+                            In some cases, we abstract the need for cordova.exec() by wrapping the functions in a strongly-typed JavaScript function.
+                        </aside>
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <h2>The Plugin Story</h2>
+                        <aside class="notes">
+                            A framework is only as good as its module support
+                        </aside>
+                    </section>
+                    <section>
+                        <h4>Cordova has 19 built-in plugins, covering common native device functionality</h4>
+                        <img src="wordcloud.png" style="border: none; box-shadow: none;" />
+                    </section>
+                    <section>
+                        <h4>The Cordova Registry has 1,182 plugins</h4>
+                        
+                        <div style="display: inline-block; margin-right: 20px;">
+                            <p>
+                                <span class="fragment fade-in" data-fragment-index="0">
+                                    <i class="fa fa-android fa-fw"></i> Android
+                                </span>
+                            </p>
+                            <p>
+                                <span class="fragment fade-in" data-fragment-index="0">
+                                    <i class="fa fa-apple fa-fw"></i> iOS
+                                </span>
+                            </p>
+                            <p>
+                                <span class="fragment fade-in" data-fragment-index="0">
+                                    <i class="fa fa-windows fa-fw"></i> Windows Phone
+                                </span>
+                            </p>
+                            <p>
+                                <span class="fragment fade-in" data-fragment-index="0">
+                                    <i class="fa fa-mobile fa-fw"></i> Blackberry
+                                </span>
+                            </p>
+                        </div>
+                        <div style="display: inline-block;">
+                            <p>
+                                <span class="fragment fade-in" data-fragment-index="0">
+                                    <i class="fa fa-linux fa-fw"></i> Ubuntu
+                                </span>
+                            </p>
+                            <p>
+                                <span class="fragment fade-in" data-fragment-index="0">
+                                    <i class="fa fa-firefox fa-fw"></i> Firefox OS
+                                </span>
+                            </p>
+                            <p>
+                                <span class="fragment fade-in" data-fragment-index="0">
+                                    <i class="fa fa-fire fa-fw"></i> Fire OS
+                                </span>
+                            </p>
+                            <p>
+                                <span class="fragment fade-in" data-fragment-index="0">
+                                    <i class="fa fa-globe fa-fw"></i> Browser App
+                                </span>
+                            </p>
+                        </div>
+                    </section>
+                </section>
+				
                 <section>
                     <p><i class="fa fa-rocket fa-4x fa-fw"></i></p>
                     <h1>DEMO</h1>
