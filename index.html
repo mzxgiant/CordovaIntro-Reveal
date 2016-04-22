@@ -1,10 +1,10 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 
 	<head>
 		<meta charset="utf-8">
 
-		<title>Pike Street Theme</title>
+		<title>Apache Cordova &amp; VS Tools for Cordova</title>
 
 		<meta name="description" content="An introduction to Apache Cordova and the Microsoft Visual Studio Tools for Apache Cordova">
 		<meta name="author" content="Anthony Turner">
@@ -42,14 +42,17 @@
 		<div class="reveal pikestreet">
 
 			<!-- Any section element inside of this container is displayed as a slide -->
-			<div class="slides">
+			<span class="slides">
 				<section>
 					<div class="accent">
-						<h4>Code for One and All</h2>
+						<h4>Streamlining Cross-Platform Development</h2>
 						<h2>Apache Cordova &amp; Visual Studio 2015</h1>
 					</div>
-					<small>Anthony Turner<br />Open-Source Software Engineer, Microsoft</small>
+                        <p>Anthony Turner</p>
+                        <p>Open-Source Software Engineer, Microsoft</p><br />
 
+                        <span style="padding-right: 20px;"><i class="fa fa-github fa-fw"></i>github.com/mzxgiant</span>
+                        <span><i class="fa fa-globe fa-fw"></i>www.anthturner.com</p>
 					<aside class="notes">
 						Title slide -- Note VS2015 is just this platform, 2013 also works
 					</aside>
@@ -58,47 +61,43 @@
 				<section class="inverse">
 					<section>
 						<h1>Why?</h1>
+                        <h2>"Oh no, not another development framework to learn..."</h2>
 						<aside class="notes">
 							Why are we here?
 						</aside>
 					</section>
-					<section>
-						<h2>Modern software development requires multiple platforms to make apps accessible to everyone</h2>
-						<table>
-							<tbody>
-								<tr>
-									<td>
-										<span class="fragment fade-in">
-											<i class="fa language fa-fw" />
-											<h4>Multiple Languages</h4>
-										</span>
-									</td>
-									<td>
-										<span class="fragment fade-in">
-											<i class="fa wrench fa-fw" />
-											<h4>Multiple Toolchains</h4>
-										</span>
-									</td>
-									<td>
-										<span class="fragment fade-in">
-											<i class="fa code-fork fa-fw" />
-											<h4>Multiple Test Suites</h4>
-										</span>
-									</td>
-								</tr>
-							</tbody>
-						</table>
-					</section>
-					<section>
-						<h1 class="alt">Let's fix that.</h1>
-						<img data-src="https://cordova.apache.org/static/img/artwork/cordova_logo_normal_dark_large.png" />
-						<h2>Visual Studio Tools for Apache Cordova</h2>
-						
-						<aside class="notes">
-							Note that VS Tools for Cordova works both on VS2013 and VS2015
-						</aside>
-					</section>
-				</section>
+                    <section>
+                        <h2>Modern software development requires multiple platforms to make apps accessible to everyone</h2>
+                        <br/>
+                        <p>
+                            <span class="fragment fade-in" data-fragment-index="0">
+                                <i class="fa fa-language fa-fw"></i> Multiple Languages
+                            </span>
+                        </p>
+                        <p>
+                            <span class="fragment fade-in" data-fragment-index="1">
+                                <i class="fa fa-wrench fa-fw"></i> Multiple Toolchains
+                            </span>
+                        </p>
+                        <p>
+                            <span class="fragment fade-in" data-fragment-index="2">
+                                <i class="fa fa-code-fork fa-fw"></i> Multiple Test Suites
+                            </span>
+                        </p>
+				    </section>
+                </section>
+
+                <section>
+                    <h1>Let's fix that.</h1>
+                    <img data-src="https://cordova.apache.org/static/img/artwork/cordova_logo_normal_dark_large.png" style="border: none; max-height: 300px;" />
+                    <h2>&amp; Visual Studio Tools for Apache Cordova</h2>
+
+                    <aside class="notes">
+                        Note that VS Tools for Cordova works both on VS2013 and VS2015
+
+                        Contributors include Adobe, BlackBerry, Google, IBM, Intel, Microsoft, Mozilla, etc
+                    </aside>
+                </section>
 				
 				<section>
 					<section>
@@ -107,6 +106,9 @@
 					<section>
 						<h1>TODO IMAGE</h1>
 						<h4>From the Visual Studio installer</h4>
+                        <aside class="notes">
+                            This can be done from the 'Programs and Features' option in Windows
+                        </aside>
 					</section>
 					<section>
 						<h1>TODO IMAGE</h1>
@@ -119,160 +121,10 @@
 					<h4>Creating your first project</h4>
 				</section>
 
-				<section data-background="assets/patternbg.png" data-background-size="700px" data-background-repeat="repeat">
-					<section>
-						<h1>Patterns & Fragments</h1>
-						<h1 class="alt">Moving Parts</h1>
-						<br />
-						<h3>
-							<span class="fragment fade-in"><i class="fa fa-rocket"></i> Hardware</span>
-							<span class="fragment fade-in"><i class="fa fa-mobile"></i> Software</span>
-							<span class="fragment fade-in"><i class="fa fa-cloud"></i> Data</span>
-							<span class="fragment fade-in"><i class="fa fa-lock"></i> Security</span>
-						</h3>
-					</section>
-				</section>
-
-				<!-- Example of nested vertical slides -->
-				<section>
-					<section>
-						<h2>Vertical Slides</h2>
-						<p>Slides can be nested inside of each other.</p>
-						<p>Use the <em>Space</em> key to navigate through all slides.</p>
-						<br>
-						<i class="fa fa-arrow-down fa-4x"></i>
-					</section>
-					<section>
-						<h2>Basement Level 1</h2>
-						<p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
-					</section>
-					<section>
-						<h2>Basement Level 2</h2>
-						<p>That's it, time to go back up.</p>
-						<br>
-						<i class="fa fa-arrow-up fa-4x"></i>
-					</section>
-				</section>
-
-				<!-- Example for Fragment Styles -->
-				<section>
-					<section id="fragments">
-						<h2>Fragments</h2>
-						<p>Hit the next arrow...</p>
-						<p class="fragment">... to step through ...</p>
-						<p><span class="fragment">... a</span> <span class="fragment">fragmented</span> <span class="fragment">slide.</span></p>
-
-						<aside class="notes">
-							This slide has fragments which are also stepped through in the notes window.
-						</aside>
-					</section>
-					<section>
-						<h2>Fragment Styles</h2>
-						<p>There's different types of fragments, like:</p>
-						<p class="fragment grow">grow</p>
-						<p class="fragment shrink">shrink</p>
-						<p class="fragment roll-in">roll-in</p>
-						<p class="fragment fade-out">fade-out</p>
-						<p class="fragment current-visible">current-visible</p>
-						<p class="fragment highlight-red">highlight-red</p>
-						<p class="fragment highlight-blue">highlight-blue</p>
-					</section>
-				</section>
-
-				<!-- Example for pretty code -->
-				<section>
-					<h2>Highlighted, Editable Code!</h2>
-					<pre><code data-trim contenteditable>
-function linkify( selector ) {
-  if( supports3DTransforms ) {
-
-    var nodes = document.querySelectorAll( selector );
-
-    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
-      var node = nodes[i];
-
-      if( !node.className ) {
-        node.className += ' roll';
-      }
-    }
-  }
-}
-					</code></pre>
-					<p>Code syntax highlighting courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
-				</section>
-
-				<section>
-					<h2>Code Editors</h2>
-					<p>The beauty of HTML5 & JavaScript: Embed whatever you want, including code editors like JSBin.</p>
-					<a class="jsbin-embed" href="http://jsbin.com/kutobaqobu/2/embed?js,console">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
-				</section>
-
-				<section>
-					<h2>Marvelous List</h2>
-					<ul>
-						<li>No order here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-					</ul>
-				</section>
-
-				<section>
-					<h2>Fantastic Ordered List</h2>
-					<ol>
-						<li>One is smaller than...</li>
-						<li>Two is smaller than...</li>
-						<li>Three!</li>
-					</ol>
-				</section>
-
-				<section>
-					<h2>Tabular Tables</h2>
-					<table>
-						<thead>
-							<tr>
-								<th>Item</th>
-								<th>Value</th>
-								<th>Quantity</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>Apples</td>
-								<td>$1</td>
-								<td>7</td>
-							<tr>
-							<tr>
-								<td>Lemonade</td>
-								<td>$2</td>
-								<td>18</td>
-							<tr>
-							<tr>
-								<td>Bread</td>
-								<td>$3</td>
-								<td>2</td>
-							<tr>
-						</tbody>
-					</table>
-				</section>
-
-				<section>
-					<h2>Intergalactic Interconnections</h2>
-					<p>
-						You can link between slides internally,
-						<a href="#/2/3">like this</a>.
-					</p>
-				</section>
-
-				<section>
-					<h2>Speaker View</h2>
-					<p>There's a speaker view. It includes a timer, preview of the upcoming slide as well as your speaker notes.</p>
-					<p>Press the <em>S</em> key to try it out.</p>
-
-					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-					</aside>
-				</section>
+                <section>
+                    <p><i class="fa fa-rocket fa-4x fa-fw"></i></p>
+                    <h1>DEMO</h1>
+                </section>
 
 			</div>
 
