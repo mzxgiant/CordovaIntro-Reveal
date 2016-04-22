@@ -37,194 +37,278 @@
 		<![endif]-->
 	</head>
 
-	<body>
+<body>
 
-		<div class="reveal pikestreet">
+    <div class="reveal pikestreet">
 
-			<!-- Any section element inside of this container is displayed as a slide -->
-			<span class="slides">
-				<section>
-					<div class="accent">
-						<h4>Streamlining Cross-Platform Development</h2>
-						<h2>Apache Cordova &amp; Visual Studio 2015</h1>
-					</div>
-                        <p>Anthony Turner</p>
-                        <p>Open-Source Software Engineer, Microsoft</p><br />
+        <!-- Any section element inside of this container is displayed as a slide -->
+        <span class="slides">
+            <section>
+                <div class="accent">
+                    <h4>
+                        Streamlining Cross-Platform Development</h2>
+                        <h2>Apache Cordova &amp; Visual Studio 2015</h1>
+                </div>
+                <p>Anthony Turner</p>
+                <p>Open-Source Software Engineer, Microsoft</p><br />
 
-                        <span style="padding-right: 20px;"><i class="fa fa-github fa-fw"></i>github.com/mzxgiant</span>
-                        <span><i class="fa fa-globe fa-fw"></i>www.anthturner.com</p>
-					<aside class="notes">
-						Title slide -- Note VS2015 is just this platform, 2013 also works
-					</aside>
-				</section>
-
-				<section class="inverse">
-					<section>
-						<h1>Why?</h1>
-                        <h2>"Oh no, not another development framework to learn..."</h2>
-						<aside class="notes">
-							Why are we here?
-						</aside>
-					</section>
-                    <section>
-                        <h2>Modern software development requires multiple platforms to make apps accessible to everyone</h2>
-                        <br/>
-                        <p>
-                            <span class="fragment fade-in" data-fragment-index="0">
-                                <i class="fa fa-language fa-fw"></i> Multiple Languages
-                            </span>
-                        </p>
-                        <p>
-                            <span class="fragment fade-in" data-fragment-index="1">
-                                <i class="fa fa-wrench fa-fw"></i> Multiple Toolchains
-                            </span>
-                        </p>
-                        <p>
-                            <span class="fragment fade-in" data-fragment-index="2">
-                                <i class="fa fa-code-fork fa-fw"></i> Multiple Test Suites
-                            </span>
-                        </p>
-				    </section>
-                </section>
-
-                <section>
-                    <h1>Let's fix that.</h1>
-                    <img data-src="https://cordova.apache.org/static/img/artwork/cordova_logo_normal_dark_large.png" style="border: none; max-height: 300px;" />
-                    <h2>&amp; Visual Studio Tools for Apache Cordova</h2>
-
+                <span style="padding-right: 20px;"><i class="fa fa-github fa-fw"></i>github.com/mzxgiant</span>
+                <span>
+                    <i class="fa fa-globe fa-fw"></i>www.anthturner.com</p>
                     <aside class="notes">
-                        Note that VS Tools for Cordova works both on VS2013 and VS2015
+                        Title slide -- Note VS2015 is just this platform, 2013 also works
+                    </aside>
+            </section>
 
-                        Contributors include Adobe, BlackBerry, Google, IBM, Intel, Microsoft, Mozilla, etc
+            <section class="inverse">
+                <section>
+                    <h1>Why?</h1>
+                    <h2>"Oh no, not another development framework to learn..."</h2>
+                    <aside class="notes">
+                        Why are we here?
                     </aside>
                 </section>
-
                 <section>
-                    <h1>Why Cordova?</h1>
+                    <h2>Modern software development requires multiple platforms to make apps accessible to everyone</h2>
+                    <br />
                     <p>
                         <span class="fragment fade-in" data-fragment-index="0">
-                            <i class="fa fa-money fa-fw"></i> Completely Free
+                            <i class="fa fa-language fa-fw"></i> Multiple Languages
                         </span>
                     </p>
                     <p>
                         <span class="fragment fade-in" data-fragment-index="1">
-                            <i class="fa fa-graduation-cap fa-fw"></i> Easy to Learn
+                            <i class="fa fa-wrench fa-fw"></i> Multiple Toolchains
                         </span>
                     </p>
                     <p>
                         <span class="fragment fade-in" data-fragment-index="2">
-                            <i class="fa fa-mobile fa-fw"></i> Write Once, Deploy Everywhere
+                            <i class="fa fa-code-fork fa-fw"></i> Multiple Test Suites
                         </span>
                     </p>
-                    <p>
-                        <span class="fragment fade-in" data-fragment-index="3">
-                            <i class="fa fa-cog fa-fw"></i> Access to Native Functionality
-                        </span>
-                    </p>
-                    <aside class="notes">
-                        
-                    </aside>
                 </section>
+            </section>
 
+            <section>
+                <h1>Let's fix that.</h1>
+                <img data-src="https://cordova.apache.org/static/img/artwork/cordova_logo_normal_dark_large.png" style="border: none; background-color: transparent; box-shadow: none; max-height: 300px;" />
+                <h2>&amp; Visual Studio Tools for Apache Cordova</h2>
+
+                <aside class="notes">
+                    Note that VS Tools for Cordova works both on VS2013 and VS2015
+
+                    Contributors include Adobe, BlackBerry, Google, IBM, Intel, Microsoft, Mozilla, etc
+                </aside>
+            </section>
+
+            <section>
+                <h1>Why Cordova?</h1>
+                <p>
+                    <span class="fragment fade-in" data-fragment-index="0">
+                        <i class="fa fa-money fa-fw"></i> Completely Free
+                    </span>
+                </p>
+                <p>
+                    <span class="fragment fade-in" data-fragment-index="1">
+                        <i class="fa fa-graduation-cap fa-fw"></i> Easy to Learn
+                    </span>
+                </p>
+                <p>
+                    <span class="fragment fade-in" data-fragment-index="2">
+                        <i class="fa fa-mobile fa-fw"></i> Write Once, Deploy Everywhere
+                    </span>
+                </p>
+                <p>
+                    <span class="fragment fade-in" data-fragment-index="3">
+                        <i class="fa fa-cog fa-fw"></i> Access to Native Functionality
+                    </span>
+                </p>
+                <aside class="notes"></aside>
+            </section>
+
+            <section>
                 <section>
-                    <section>
-                        <h1>How Does It Work?</h1>
-                    </section>
-                    <section>
-                        <h2>Applications are executed in a web view control</h2>
-                    </section>
-                    <section>
-                        <h2>Javascript exposes native device functionality</h2>
-                        <span class="fragment fade-in" data-fragment-index="0">
-                            <pre><code data-trim contenteditable>
+                    <h1>How Does It Work?</h1>
+                </section>
+                <section>
+                    <h2>Applications are executed in a web view control</h2>
+                </section>
+                <section>
+                    <h2>Javascript exposes native device functionality</h2>
+                    <span class="fragment fade-in" data-fragment-index="0">
+                        <pre><code data-trim contenteditable>
 cordova.exec(function(successCallback) {},
              function(errorCallback) {},
              "service",
              "action",
              ["firstArgument", "secondArgument", 42, false]);
                             </code></pre>
-                        </span>
-                        <aside class="notes">
-                            Service and action are parsed by the native plugin class
+                    </span>
+                    <span class="fragment fade-in" data-fragment-index="1">
+                        <pre><code data-trim contenteditable>
+navigator.compass.getCurrentHeading(successCallback, errorCallback);
+                            </code></pre>
+                    </span>
+                    <aside class="notes">
+                        Service and action are parsed by the native plugin class
 
-                            In some cases, we abstract the need for cordova.exec() by wrapping the functions in a strongly-typed JavaScript function.
-                        </aside>
-                    </section>
+                        In some cases, we abstract the need for cordova.exec() by wrapping the functions in a strongly-typed JavaScript function.
+                    </aside>
                 </section>
+            </section>
 
+            <section>
                 <section>
-                    <section>
-                        <h2>The Plugin Story</h2>
-                        <aside class="notes">
-                            A framework is only as good as its module support
-                        </aside>
-                    </section>
-                    <section>
-                        <h4>Cordova has 19 built-in plugins, covering common native device functionality</h4>
-                        <img src="wordcloud.png" style="border: none; box-shadow: none;" />
-                    </section>
-                    <section>
-                        <h4>The Cordova Registry has 1,182 plugins</h4>
-                        
-                        <div style="display: inline-block; margin-right: 20px;">
-                            <p>
-                                <span class="fragment fade-in" data-fragment-index="0">
-                                    <i class="fa fa-android fa-fw"></i> Android
-                                </span>
-                            </p>
-                            <p>
-                                <span class="fragment fade-in" data-fragment-index="0">
-                                    <i class="fa fa-apple fa-fw"></i> iOS
-                                </span>
-                            </p>
-                            <p>
-                                <span class="fragment fade-in" data-fragment-index="0">
-                                    <i class="fa fa-windows fa-fw"></i> Windows Phone
-                                </span>
-                            </p>
-                            <p>
-                                <span class="fragment fade-in" data-fragment-index="0">
-                                    <i class="fa fa-mobile fa-fw"></i> Blackberry
-                                </span>
-                            </p>
-                        </div>
-                        <div style="display: inline-block;">
-                            <p>
-                                <span class="fragment fade-in" data-fragment-index="0">
-                                    <i class="fa fa-linux fa-fw"></i> Ubuntu
-                                </span>
-                            </p>
-                            <p>
-                                <span class="fragment fade-in" data-fragment-index="0">
-                                    <i class="fa fa-firefox fa-fw"></i> Firefox OS
-                                </span>
-                            </p>
-                            <p>
-                                <span class="fragment fade-in" data-fragment-index="0">
-                                    <i class="fa fa-fire fa-fw"></i> Fire OS
-                                </span>
-                            </p>
-                            <p>
-                                <span class="fragment fade-in" data-fragment-index="0">
-                                    <i class="fa fa-globe fa-fw"></i> Browser App
-                                </span>
-                            </p>
-                        </div>
-                    </section>
+                    <h2>The Plugin Story</h2>
+                    <aside class="notes">
+                        A framework is only as good as its module support
+                    </aside>
                 </section>
-				
                 <section>
-                    <p><i class="fa fa-rocket fa-4x fa-fw"></i></p>
-                    <h1>DEMO</h1>
+                    <h4>Cordova has 19 built-in plugins, covering common native device functionality</h4>
+                    <img src="wordcloud.png" style="border: none; box-shadow: none;" />
                 </section>
+                <section>
+                    <h4>The Cordova Registry has 1,182 plugins</h4>
 
-			</div>
+                    <div style="display: inline-block; margin-right: 20px;">
+                        <p>
+                            <span class="fragment fade-in" data-fragment-index="0">
+                                <i class="fa fa-android fa-fw"></i> Android
+                            </span>
+                        </p>
+                        <p>
+                            <span class="fragment fade-in" data-fragment-index="0">
+                                <i class="fa fa-apple fa-fw"></i> iOS
+                            </span>
+                        </p>
+                        <p>
+                            <span class="fragment fade-in" data-fragment-index="0">
+                                <i class="fa fa-windows fa-fw"></i> Windows Phone
+                            </span>
+                        </p>
+                        <p>
+                            <span class="fragment fade-in" data-fragment-index="0">
+                                <i class="fa fa-mobile fa-fw"></i> Blackberry
+                            </span>
+                        </p>
+                    </div>
+                    <div style="display: inline-block;">
+                        <p>
+                            <span class="fragment fade-in" data-fragment-index="0">
+                                <i class="fa fa-linux fa-fw"></i> Ubuntu
+                            </span>
+                        </p>
+                        <p>
+                            <span class="fragment fade-in" data-fragment-index="0">
+                                <i class="fa fa-firefox fa-fw"></i> Firefox OS
+                            </span>
+                        </p>
+                        <p>
+                            <span class="fragment fade-in" data-fragment-index="0">
+                                <i class="fa fa-fire fa-fw"></i> Fire OS
+                            </span>
+                        </p>
+                        <p>
+                            <span class="fragment fade-in" data-fragment-index="0">
+                                <i class="fa fa-globe fa-fw"></i> Browser App
+                            </span>
+                        </p>
+                    </div>
+                </section>
+            </section>
 
-		</div>
+            <section>
+                <section>
+                    <h2>TACO</h2>
+                    <h4>Tools for Apache COrdova</h4>
+                    <aside class="notes">
+                        VS2013/VS2015 available
+                    </aside>
+                </section>
+                <section>
+                    <h2>Folders</h2>
+                    <h4>There are 3 folders that are important:</h4>
+                    <ul>
+                        <li>
+                            <i>merges</i><br />
+                            Holds platform-specific script overrides for Cordova plugins and application code
+                        </li>
+                        <li>
+                            <i>res</i><br />
+                            Holds app icons and other native resources for each supported platform
+                        </li>
+                        <li>
+                            <i>www</i><br />
+                            Holds your application and its direct dependencies
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>bower.json</h2>
+                    <p>
+                        <div style="display: inline-block; margin-right: 20px; width: 60%;">
+                    <p>Contains selected dependency packages from the Bower package manager</p>
+                    <p>This may include Bootstrap, jQuery, AngularJS, etc.</p>
+    </div>
+    <div style="display: inline-block; vertical-align: top; margin-top: 20px;">
+        <img src="cordovaFilesBowerSelected.png" />
+    </div>
+    </p>
+    </section>
+    <section>
+        <h2>build.json</h2>
+        <p>
+            <div style="display: inline-block; margin-right: 20px; width: 60%;">
+        <p>Contains required parameters to build a signed package for deployment on Android platforms</p>
+        </div>
+        <div style="display: inline-block; vertical-align: top; margin-top: 20px;">
+            <img src="cordovaFilesBuildSelected.png" />
+        </div>
+        </p>
+    </section>
+    <section>
+        <h2>config.xml</h2>
+        <p>
+            <div style="display: inline-block; margin-right: 20px; width: 60%;">
+        <p>Contains Cordova settings for the app, including managing plugins</p>
+        </div>
+        <div style="display: inline-block; vertical-align: top; margin-top: 20px;">
+            <img src="cordovaFilesConfigSelected.png" />
+        </div>
+        </p>
+    </section>
+    <section>
+        <h2>config.xml</h2>
+        <p>
+            <img src="configXmlEditor.png" />
+        </p>
+    </section>
+    <section>
+        <h2>taco.json</h2>
+        <p>
+            <div style="display: inline-block; margin-right: 20px; width: 60%;">
+        <p>Defines which version of the Cordova CLI Visual Studio uses to build the project</p>
+        </div>
+        <div style="display: inline-block; vertical-align: top; margin-top: 20px;">
+            <img src="cordovaFilesTacoSelected.png" />
+        </div>
+        </p>
+    </section>
+    </section>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
-		<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-		<script src="js/pikestreet.js"></script>
-	</body>
+    <section>
+        <p><i class="fa fa-rocket fa-4x fa-fw"></i></p>
+        <h1>DEMO</h1>
+    </section>
+
+    </div>
+
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="js/pikestreet.js"></script>
+</body>
 </html>
